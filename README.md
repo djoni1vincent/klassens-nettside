@@ -1,2 +1,2 @@
- # skolens nettside
- # Første prosjekt i faget Utvikling# utvikling-nettside
+#skolens nettside
+første prosjekt i faget utvikling
