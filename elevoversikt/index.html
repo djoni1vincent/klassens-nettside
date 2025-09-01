@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skolens Nettside</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="../main.js" defer></script>
+    <script defer>
+        const listeElement = document.getElementById("liste1")
+        const elever = require("elever.json")
+        for (let i = 0; i < elever.length; i++) {
+            const li = document.createElement("li")
+            li.textContent = elever[i]
+            listeElement.appendChild(li)
+        }
+    </script>
+</head>
+<body>
+
+<div class="header">
+    <h1>Oversikt over elever</h1>
+</div>
+
+<div>
+    <ul id="liste1"></ul>
+</div>
+
+
+</body>
+</html>
