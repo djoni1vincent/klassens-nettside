@@ -3,7 +3,24 @@ html {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(120, 165, 220);
+}
+
+li > a {
+    font-size: 25px;
+}
+li > a:hover { 
+    color: red;
+    transition: 0.4s;
+}
+
 .header {
     display: flex;
     justify-content: center;
+    color: rgb(156, 163, 235);
 }
+
+
+
